@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -162,7 +162,7 @@ nav a:hover {
 
 /* MAIN */
 #main-container {
-    padding: 100px 50px 50px;
+    padding:0;
     max-width: 100%;
     margin: auto;
 }
@@ -171,12 +171,16 @@ nav a:hover {
 .slider {
     overflow: hidden;
     margin-bottom: 40px;
-    width: 100%;
+    max-width: 500px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-left: 30%;
 }
 
 .slides {
     display: flex;
-    width: calc(300% *1.5);
+    width: 100%;
     animation: scroll 30s linear infinite;
 }
 
@@ -250,7 +254,8 @@ nav a:hover {
 
 .content img {
     width: 100%;
-    border-radius: 12px;
+    border-radius: 2px;
+    object-fit: fill;
 }
 
 .content p {
@@ -307,33 +312,7 @@ nav a:hover {
 
 <div id="main-container">
 
-<div class="slider">
-    <div class="slides">
-        <!-- duplicated for smooth infinite effect -->
-        <div class="slide">
-            <img src="https://images.unsplash.com/photo-1580281657527-47f249e8f4df">
-            <div class="caption">Portable Oxygen Concentrator</div>
-        </div>
 
-        <div class="slide">
-            <img src="images/liqox.png">
-            <div class="caption">Hospital Oxygen Supply System</div>
-        </div>
-
-
-
-        <!-- duplicate -->
-        <div class="slide">
-            <img src="images/concentrato.webp" alt="machine">
-            <div class="caption">Portable Oxygen Concentrator</div>
-        </div>
-
-        <div class="slide">
-            <img src="images/mask.png" alt="mask">
-            <div class="caption">A Venturi Mask (often called a "Venti mask") is a high-flow oxygen delivery device.</div>
-        </div>
-    </div>
-</div>
 
 <h2 class="section-title">Health Insights</h2>
 
@@ -352,10 +331,10 @@ nav a:hover {
 </div>
 
 <div class="articles">
-    <h2>Eye Health</h2>
+    <h2>low-flow mask</h2>
     <div class="content-holder">
         <div class="content">
-            <img src="images/mask.png">
+            <img src="images/kamask.png">
         </div>
         <div class="content">
             <p>A Simple Face Mask (often called a "low-flow" mask) is a basic medical device used to deliver oxygen to patients who are breathing on their own but need a bit more support than a nasal cannula can support with up to 5-10 L/min (40% to 60% FiO2). </p>
