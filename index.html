@@ -105,7 +105,7 @@ nav a:hover {
 .hero {
     height: 80vh;
     background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.3)),
-                url('images/body.png') center/cover no-repeat;
+                url('images/doc.jpg') center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -221,6 +221,7 @@ nav a:hover {
     font-size: 2rem;
     margin-bottom: 30px;
     color: var(--primary);
+    padding: 20px;
 }
 
 /* ARTICLES */
@@ -239,7 +240,7 @@ nav a:hover {
 
 .articles h2 {
     padding: 18px;
-    font-size: 1.3rem;
+    font-size:medium;
     color: var(--primary);
     border-bottom: 1px solid #eee;
 }
@@ -255,7 +256,8 @@ nav a:hover {
 .content img {
     width: 100%;
     border-radius: 2px;
-    object-fit: fill;
+   object-fit: cover;
+    object-position: top;
 }
 
 .content p {
@@ -267,6 +269,10 @@ nav a:hover {
 .content span {
     font-weight: bold;
     color: var(--primary);
+}
+strong {
+    color: rgba(21, 160, 141, 0.705);
+    font-size: large;
 }
 
 @media(max-width:768px){
@@ -294,14 +300,14 @@ nav a:hover {
         <a href="#">About</a>
         <a href="#">Devices</a>
         <a href="#">Contact</a>
-        <a href="#" class="SignUp" style="color: rgb(0, 162, 255);">Sign Up</a>
+        <a href="#" class="SignUp" style="color: rgb(37, 145, 127);">Sign Up</a>
     </nav>
 </header>
 
 <div class="hero">
     <div>
         <h1>Breathe Better. Live Healthier.</h1>
-        <p>Your trusted guide to oxygen health, wellness, and medical awareness.</p>
+        <p>Your trusted guide to wellness and medical awareness.</p>
 
         <div class="hero-buttons">
             <a href="#" class="btn-primary">Explore Articles</a>
@@ -320,7 +326,7 @@ nav a:hover {
     <h2>The Importance of Oxygen</h2>
     <div class="content-holder">
         <div class="content">
-            <img src="images/heropic.jpg">
+            <img src="images/machinery.jpg">
         </div>
         <div class="content">
             <p>Medical Oxygen is an essential drug used in the treatment of hypoxemia, pneumonia, COVID-19, and emergency care.</p>
@@ -344,6 +350,42 @@ nav a:hover {
         </div>
     </div>
 </div>
+
+<div class="articles">
+    <h2>Oxygen cylinders</h2>
+    <div class="content-holder">
+        <div class="content">
+            <img src="images/multi.jpg">
+        </div>
+        <div class="content">
+<p><strong>
+     Definition and Purpose</strong> 
+     <br>
+     Oxygen cylinders are high-pressure containers designed for the storage and transportation of oxygen gas. They are widely used in medical, industrial, and emergency settings to supply oxygen for respiration, combustion, and various technical processes.</p>
+
+<p><strong>
+     Components</strong> <br>
+     Key components of an oxygen cylinder include the cylinder body, valve, pressure regulator, flow meter, and protective cap. The valve controls gas release, while the regulator reduces high pressure to a usable level. The flow meter ensures accurate delivery of oxygen to the user.</p>
+
+<p><strong> Medical Applications:</strong>
+    <br> 
+    In healthcare, oxygen cylinders are used to provide supplemental oxygen to patients with respiratory conditions such as asthma, pneumonia, or chronic obstructive pulmonary disease (COPD). They are also essential in emergency care, surgery, and intensive care units.</p>
+
+
+
+<p><strong style="color: red;"> Safety Precautions</strong>
+    <br>
+    Oxygen supports combustion and can accelerate fires. Cylinders must be stored upright, secured properly, and kept away from heat sources, flammable materials, and oils/grease. Regular inspection for leaks and damage is critical.</p>
+
+
+
+<p><strong> Maintenance and Inspection:</strong>
+    <br> 
+    Regular maintenance includes checking for leaks, ensuring valves function properly, and verifying pressure levels. Periodic hydrostatic testing is required to confirm the cylinder’s structural integrity.</p>
+        </div>
+    </div>
+</div>
+
 
 <div class="articles">
     <h2>Oxygen Sources</h2>
